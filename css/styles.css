@@ -1,0 +1,241 @@
+:root {
+  --logo-footer: #f4f4fd;
+  --logo-color-main: #4d5ae5;
+  --hero-sect-color: #ffffff;
+  --notmain-color: #2e2f42;
+  --footer-color-logotext: #f4f4fd;
+  --main-color: #434455;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #434455;
+  background-color: #ffffff;
+}
+/** ---------------------HEADER--------------------- */
+.header {
+}
+
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color-main);
+}
+.header-logo.link {
+  text-decoration: none;
+}
+.header-logo-span {
+  color: #2e2f42;
+}
+.header-menu {
+}
+.header-menu.list {
+  list-style: none;
+}
+.header-menu-link {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--notmain-color);
+}
+
+.header-menu-link.link {
+  text-decoration: none;
+}
+.header-menu-link:hover,
+.header-menu-link:focus {
+  color: #404bbf;
+}
+.header-address {
+  font-style: normal;
+}
+.header-address-list.list {
+  list-style: none;
+}
+.header-address-item {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
+.header-address-item.link {
+  text-decoration: none;
+}
+.header-address-item.link:hover,
+.header-address-item.link:focus {
+  color: #404bbf;
+}
+/** ---------------------HERO SECTION--------------------- */
+.hero {
+  background-color: #2e2f42;
+}
+.hero-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--hero-sect-color);
+}
+.hero-button {
+  font-family: inherit;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: var(--hero-sect-color);
+  background-color: #4d5ae5;
+  cursor: pointer;
+}
+.hero-button:hover,
+.hero-button:focus {
+  background-color: #404bbf;
+}
+
+/** ---------------------BENEFITS SECTION--------------------- */
+.benefits {
+}
+.benefits-list {
+  list-style: none;
+}
+.benefits-item {
+}
+.benefits-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--notmain-color);
+}
+.benefits-item-text {
+}
+
+/** ---------------------WORKS--------------------- */
+.works {
+}
+.works-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--notmain-color);
+}
+.works-list.list {
+  list-style: none;
+}
+/** ---------------------TEAM SECTION--------------------- */
+.team {
+  background-color: #f4f4fd;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  text-align: center;
+  color: var(--notmain-color);
+}
+.team-list {
+}
+.team-list.list {
+  list-style: none;
+}
+.team-item {
+  background-color: #ffffff;
+}
+.team-subtitle {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--notmain-color);
+}
+.team-text {
+}
+
+/** ---------------------FOOTER--------------------- */
+
+.footer {
+  background-color: #2e2f42;
+}
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--logo-color-main);
+}
+.footer-logo.link {
+  text-decoration: none;
+}
+.footer-logo-span {
+  color: #f4f4fd;
+}
+.footer-text {
+  color: var(--footer-color-logotext);
+}
+
+/** ---------------------PORTFOLIO-HERO--------------------- */
+.portfolio {
+}
+.portfolio-list {
+}
+.portfolio-list.list {
+  list-style: none;
+}
+.portfolio-list-item {
+}
+.portfolio-button {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+  background-color: #f4f4fd;
+}
+.portfolio-button:focus,
+.portfolio-button:hover {
+  color: #ffffff;
+  background-color: #404bbf;
+}
+
+/** ---------------------PROJECTS--------------------- */
+
+.projects {
+}
+.projects.list {
+  list-style: none;
+}
+.projects-link.link {
+  text-decoration: none;
+}
+.projects-item {
+}
+.projects-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+  color: var(--notmain-color);
+}
+.projects-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--main-color);
+}
