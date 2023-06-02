@@ -143,6 +143,7 @@ img {
 }
 /** ---------------------HERO SECTION--------------------- */
 .hero {
+  padding: 188px 0;
 }
 .hero-container {
   background-color: #2e2f42;
@@ -183,6 +184,7 @@ img {
 
 /** ---------------------BENEFITS SECTION--------------------- */
 .benefits {
+  padding: 120px 0;
 }
 .benefits-container {
   display: flex;
@@ -211,6 +213,7 @@ img {
 
 /** ---------------------WORKS--------------------- */
 .works {
+  padding-bottom: 120px;
 }
 .works-container {
   padding-bottom: 120px;
@@ -235,6 +238,7 @@ img {
 /** ---------------------TEAM SECTION--------------------- */
 .team {
   background-color: #f4f4fd;
+  padding-bottom: 120px;
 }
 .team-container {
   padding: 120px 0;
@@ -284,6 +288,7 @@ img {
 
 .footer {
   background-color: #2e2f42;
+  padding-bottom: 120px;
 }
 .footer-container {
   padding: 100px 0;
@@ -312,10 +317,10 @@ img {
 
 /** ---------------------PORTFOLIO-HERO--------------------- */
 .portfolio {
-}
-.portfolio-container {
   padding-top: 96px;
   padding-bottom: 120px;
+}
+.portfolio-container {
 }
 .portfolio-title {
   .visually-hidden;
