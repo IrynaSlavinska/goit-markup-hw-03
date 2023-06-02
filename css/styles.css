@@ -238,10 +238,9 @@ img {
 /** ---------------------TEAM SECTION--------------------- */
 .team {
   background-color: #f4f4fd;
-  padding-bottom: 120px;
+  padding: 120px 0;
 }
 .team-container {
-  padding: 120px 0;
 }
 .team-title {
   font-weight: 700;
@@ -289,9 +288,9 @@ img {
 .footer {
   background-color: #2e2f42;
   padding-bottom: 120px;
+  padding: 100px 0;
 }
 .footer-container {
-  padding: 100px 0;
 }
 .footer-logo {
   font-family: 'Raleway', sans-serif;
