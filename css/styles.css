@@ -63,8 +63,6 @@ img {
   align-items: center;
 }
 .header {
-  padding-top: 24px;
-  padding-bottom: 24px;
   border-bottom: 1px solid #e7e9fc;
 }
 .header-list {
@@ -144,9 +142,9 @@ img {
 /** ---------------------HERO SECTION--------------------- */
 .hero {
   padding: 188px 0;
+  background-color: #2e2f42;
 }
 .hero-container {
-  background-color: #2e2f42;
   padding: 188px 0;
 }
 .hero-title {
@@ -187,8 +185,6 @@ img {
   padding: 120px 0;
 }
 .benefits-container {
-  display: flex;
-  padding: 120px 0;
 }
 .benefits-title {
   visibility: visually-hidden;
@@ -216,7 +212,6 @@ img {
   padding-bottom: 120px;
 }
 .works-container {
-  padding-bottom: 120px;
 }
 .works-title {
   font-weight: 700;
